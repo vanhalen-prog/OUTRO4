@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+ background-color: #b699c2;
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ }
+
+.container {
+ background: #ecb653;
+ padding:80px;
+ border-radius: 10px;
+ box-shadow: 0 0 15px rgba (0,0,0,0,1);
+ text-align: center;
+ }
+
+  h1 {
+  color:#9d63cb;
+  }
+  p{
+  margin-top: 10px;
+  color: black;
+  }
+.logout-button {
+ margin-top: 20px;
+ padding: 10px 20px;
+ background-color:#9d63cb;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer
+ 
+}
+.logout-button:hover {
+ background-color: #d32f2f;
+}
+.image{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+ }
+ img{
+ width: 90px;
+ height:100px;
+ }
+</style>
+</head>
+<body>
+ <div class="container">
+ <div class="image">
+<img src="https://images.vexels.com/media/users/3/141199/isolated/preview/cb4c24f02668f2dacba3e39db60d65dd-silhueta-de-salto-de-skate-1.png">
+ </div>
+ <h1>Bem-vindo</h1>
+ <p>Você está sendo redirecionado para o seu portal</p>
+ <button class="logout-button" onclick="voltar()">Ok</button>
+</div>
+
+<script>
+function voltar() {
+ window.location.href = "inicial.html";;
+ }
+ </script>
+</body>
+</html>
